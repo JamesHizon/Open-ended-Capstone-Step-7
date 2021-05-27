@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T21:17:15.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="0ai4rJLy2QpheVxq79Do" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:17:36.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="7PAijuxlisurR9gPLy_s" version="14.7.2" type="github">
   <diagram id="_mIrhGSLpp9kIBfSV_T9" name="Page-1">
     <mxGraphModel dx="719" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,9 @@
         </mxCell>
         <mxCell id="ZoIi8nxnlXmlVmmQI6Re-23" value="Query data for &amp;nbsp;Analytics Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="130" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-25" value="AWS Glue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="90" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
