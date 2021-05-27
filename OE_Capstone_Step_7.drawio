@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T20:37:34.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.7.2" etag="UEjsIP_Z9obNJb5e63j8" type="github"><diagram id="_mIrhGSLpp9kIBfSV_T9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-27T20:42:14.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="vL9SMh3Bs9lDnyEusHn2" version="14.7.2" type="github">
+  <diagram id="_mIrhGSLpp9kIBfSV_T9" name="Page-1">
+    <mxGraphModel dx="595" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-1" value="GDELT Project &lt;br&gt;HTML Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-2" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-3" value="AWS Redshift" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-4" value="&lt;h1&gt;Link:&lt;/h1&gt;&lt;p&gt;https://aws.amazon.com/big-data/datalakes-and-analytics/&lt;/p&gt;&lt;p&gt;- This link is useful as a reference to which AWS services to implement for my architecture diagram.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="290" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
