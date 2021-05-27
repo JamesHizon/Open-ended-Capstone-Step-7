@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T20:54:59.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="1PabsqVxPv7LFzc8OwSP" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:06:24.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="syioeP2WIzFb0cZpIRm3" version="14.7.2" type="github">
   <diagram id="_mIrhGSLpp9kIBfSV_T9" name="Page-1">
     <mxGraphModel dx="719" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,11 +31,17 @@
         <mxCell id="ZoIi8nxnlXmlVmmQI6Re-9" value="EL Pipeline (Python Script )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="100" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-16" value="&lt;h1&gt;Steps:&lt;/h1&gt;&lt;p&gt;1. Locate source data (GDELT Project HTML document).&lt;/p&gt;&lt;p&gt;2. Write Python script to extract and load data into AWS S3.&lt;/p&gt;&lt;p&gt;3. Inside AWS S3, we will use Spark to read the files via cloud path.&lt;/p&gt;&lt;p&gt;4. I will use PySpark to run my data transformations and then load data into AWS Redshift as a data warehouse solution.&lt;/p&gt;&lt;p&gt;5.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="370" width="330" height="220" as="geometry" />
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-16" value="&lt;h1&gt;Steps:&lt;/h1&gt;&lt;p&gt;1. Locate source data (GDELT Project HTML document).&lt;/p&gt;&lt;p&gt;2. Write Python script to extract and load data into AWS S3.&lt;/p&gt;&lt;p&gt;3. Inside AWS S3, we will use Spark (PySpark or Amazon EMR) to read the files via cloud path and run an ETL pipeline to store data into AWS Redshift as a Data Warehouse solution.&lt;/p&gt;&lt;p&gt;4. Via AWS Redshift, we can try to query the data and explore it into an AWS Analytics solution such as Amazon Quicksight to generate a dashboard and visualize the data or Amazon SageMaker to build a predictive model (see link:&amp;nbsp;https://aws.amazon.com/sagemaker/).&lt;/p&gt;&lt;p&gt;5. I need to monitor my activity&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="620" height="250" as="geometry" />
         </mxCell>
         <mxCell id="ZoIi8nxnlXmlVmmQI6Re-17" value="ETL Pipeline via PySpark (Python Script)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-18" value="Data Lake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoIi8nxnlXmlVmmQI6Re-19" value="Data&amp;nbsp;&lt;br&gt;Warehouse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
